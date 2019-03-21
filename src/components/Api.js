@@ -1,6 +1,6 @@
 import React from 'react';
 
-class getWeather extends React.Component {
+export class getWeather extends React.Component {
 
     getWeather = async (e) => {
         e.preventDefault();
