@@ -3,7 +3,7 @@ import React from 'react';
 import Titles from './components/Titles';
 import Weather from './components/Weather'
 import Form from './components/Form';
-import getWeather from './components/Api'
+import {getWeather} from './components/Api';
 
 
 const API_KEY = '159eb6aae46fda042f529598b2ee6774';

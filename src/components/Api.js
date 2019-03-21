@@ -1,8 +1,7 @@
 import React from 'react';
 
-export class getWeather extends React.Component {
 
-    getWeather = async (e) => {
+    export const getWeather = async (e) => {
         e.preventDefault();
         const city = e.target.elements.city.value;
         const country = e.target.elements.country.value;
@@ -33,4 +32,3 @@ export class getWeather extends React.Component {
         }
 
     }
-}
