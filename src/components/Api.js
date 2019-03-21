@@ -3,6 +3,8 @@ import React from 'react';
 
     export const getWeather = async (e) => {
         e.preventDefault();
+
+        const API_KEY = '159eb6aae46fda042f529598b2ee6774';
         const city = e.target.elements.city.value;
         const country = e.target.elements.country.value;
         const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`);
